@@ -22,3 +22,5 @@ show_message_button.click()
 ouput_message = chrome_browser.find_element_by_id('display')
 assert 'Browser Input Typing Test' in ouput_message.text
 print(ouput_message.text)
+
+chrome_browser.quit()
